@@ -15,18 +15,18 @@ public class CarTest {
         assertEquals(101, c.getMaxSpeed());
     }
 
-    @Test
+    @Test(timeout = 50)
     public void downgradeSpeed() {
         c.downgradeSpeed();
         assertEquals(99, c.getMaxSpeed());
     }
 
-    @Test
+    @Test(timeout = 50)
     public void getMaxSpeed() {
         assertEquals(100, c.getMaxSpeed());
     }
 
-    @Test
+    @Test(timeout = 50)
     public void getPrice() {
         assertEquals(100, c.getPrice());
     }
