@@ -24,4 +24,12 @@ public class Car implements Tradable, Drivable {
     public int getPrice() {
         return 100;
     }
+
+    @Override
+    public String toString(){
+        String id = super.toString();
+        return id + " (Max speed: " + this.maxSpeed +")";
+    }
 }
+
+
