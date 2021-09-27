@@ -32,6 +32,13 @@ public class OstrichTest {
     }
 
     @Test(timeout = 50)
-    public void TestGetPrice() {
-        assertEquals(15, O.getPrice()); }
+    public void TestDowngradeSpeed() {
+        O.downgradeSpeed();
+        assertEquals(1, O.getMaxSpeed());
     }
+
+    @Test(timeout = 50)
+    public void TestGetPrice() {
+        assertEquals(15, O.getPrice());
+    }
+}
