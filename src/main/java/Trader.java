@@ -97,9 +97,11 @@ public class Trader {
                 new Horse(),
                 new Horse(),
                 new Horse(),
+                new Ostrich()
                 new Motorcycle(),
                 new Motorcycle(),
                 new Motorcycle()
+
                 new Dog()
                 new Car()
 
