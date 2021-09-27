@@ -18,4 +18,12 @@ public class DogTest {
     public void TestSound() {
         assertEquals("Woof", d.sound());
     }
+
+    /**
+     * Test whether dog returns expected price.
+     */
+    @Test(timeout = 50)
+    public void TestPrice() {
+        assertEquals(5, d.getPrice());
+    }
 }
