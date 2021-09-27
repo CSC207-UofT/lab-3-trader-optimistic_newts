@@ -100,6 +100,10 @@ public class Trader {
                 new Motorcycle(),
                 new Motorcycle(),
                 new Motorcycle()
+                new Dog()
+                new Car()
+
+          
         );
 
         /* Below, we've created two Traders. Their money, inventory, and
