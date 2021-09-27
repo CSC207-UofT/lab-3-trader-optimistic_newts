@@ -1,23 +1,23 @@
 public class Motorcycle implements Drivable, Tradable {
     private int maxSpeed = 5;
-    private int Price;
+    private int price;
 
 
     public Motorcycle() {
-        this.Price = 1000;
+        this.price = 1000;
     }
 
     @Override
     public void upgradeSpeed() {
         this.maxSpeed++;
-        this.Price += this.maxSpeed * 10;
+        this.price += this.maxSpeed * 10;
     }
 
     @Override
     public void downgradeSpeed() {
         if (maxSpeed > 0) {
             this.maxSpeed--;
-            this.Price -= this.maxSpeed * 10;
+            this.price -= this.maxSpeed * 10;
         }
     }
 
@@ -28,7 +28,7 @@ public class Motorcycle implements Drivable, Tradable {
 
     @Override
     public int getPrice() {
-        return this.Price;
+        return this.price;
     }
 
     @Override
