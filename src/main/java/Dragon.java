@@ -1,10 +1,6 @@
 public class Dragon implements Domesticatable, Tradable{
 
-    public Dragon() {
-    }
-
-
-    /**
+    /** Return the sound of a dragon.
      *
      * @return  A dragon sound.
      */
@@ -13,7 +9,7 @@ public class Dragon implements Domesticatable, Tradable{
         return "grrrr (with fire)";
     }
 
-    /**
+    /**Return the price of a dragon.
      *
      * @return  The price of a dragon.
      */
